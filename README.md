@@ -9,15 +9,25 @@ documentation.
 ## Install
 
 ``` sh
-pip install nbdev_cards
+pip install nbdev-cards
 ```
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+This lib provides a
+[`Card`](https://nateinaction.github.io/nbdev_cards/card.html#card)
+class you can use to create, display, and compare playing cards:
 
 ``` python
-1+1
+Card(1, 3)
 ```
 
-    2
+    3♦️
+
+Suits are numbered according to this list:
+
+``` python
+suits
+```
+
+    ['♣️', '♦️', '♥️', '♠️']
